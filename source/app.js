@@ -1,5 +1,5 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Application = require('./component/application.react');
+var Page = require('./component/page.react');
 
-ReactDOM.render(<Application />, document.getElementById('react-application'));
+ReactDOM.render(<Page />, document.getElementById('col-md-3'));
